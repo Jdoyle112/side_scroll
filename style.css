@@ -1,0 +1,47 @@
+body {
+	background-color: #551A8B;
+}
+
+#left_content {
+	position: fixed;
+	margin-top: 40px;
+}
+
+.right_content {
+	position: relative;
+}
+
+	::-webkit-scrollbar { 
+    display: none; }
+
+#content {
+width: 45%;
+height: 400px;
+overflow: scroll;
+position: absolute;
+right: 0;
+
+}
+
+h1, h4 {
+	margin-left: 10%;
+	color: white;
+}
+
+#box1 {
+	top: 250px;
+}
+
+#box2 {
+	top: 650px;
+	
+}
+
+#box3 {
+	top: 1050px;
+}
+
+#box4 {
+	top: 1450px;
+	margin-bottom: 600px;
+}
